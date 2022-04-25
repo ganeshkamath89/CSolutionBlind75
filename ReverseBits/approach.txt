@@ -1,0 +1,4 @@
+1) We use a mask of 1 to determine whether the number's bit is set or not
+2) We loop the number for all 32 digits and check which all bits are set
+3) When ever bits are set while checking form right to left, that bit is bitwise-ORed from another nuber's left to right
+4) The new number formed has reversed bits of the original number

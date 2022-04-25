@@ -1,0 +1,10 @@
+1) We are not allowed to divide the elements
+2) Also space complexity is not an issue in this problem
+3) So we create 2 arrays 
+	i) left - goes l->r where each element is l->r product
+	ii) right - goes r->l where each element is r->l product
+4) There are 2 boundary cases:
+	i) result[0] = right[1];
+	ii) result[n-1] = left[n-2];
+5) the product of elements excluding the current is given by
+	result[i] = left[i - 1] * right[i + 1];

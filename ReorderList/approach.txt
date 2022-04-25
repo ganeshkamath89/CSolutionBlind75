@@ -1,0 +1,6 @@
+1) User hare-Tortoise to get middle element of the linked list
+2) Use this to split the linked list into 2 parts
+3) The first part is kept as it is ending at the middle node
+4) The second part is considered from next element of middle node.
+5) The second part is flipped
+6) The first and second linked lists are merged to give the re-ordered list
