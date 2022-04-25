@@ -1,0 +1,4 @@
+1) run two loops to compare an elements till end of the list.
+2) if an element is found, return true
+
+Todo: use Hash maps to solve it in O(n)

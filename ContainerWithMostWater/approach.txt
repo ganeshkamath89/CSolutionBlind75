@@ -1,0 +1,6 @@
+1) We are given heights and need to form containers to estimate which two heights at given location can form a container with maximum area
+2) We use two pointers L and R assigned to 0 and n - 1
+3) We use the rectangle formula {Width * height} given by: (l - r)*min(value[l], value[r])
+4) Pointer advances in the direction of lesser value[i] till l become r
+
+Note: Do not use three nested for loops for this problem as it has O(N^3) complexity

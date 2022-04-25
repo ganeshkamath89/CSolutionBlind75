@@ -1,0 +1,4 @@
+1) We need to print the number of set bits in all numbers till the given number as an array
+2) We use dynamic programming to keep track of all the outputs so far, and use the formula to calculate current value
+3) If current value is even, it's value will be the same as half it's value: x/2
+4) If current value is odd, then it's value will be 1 more than the half it's value: 1 + x/2

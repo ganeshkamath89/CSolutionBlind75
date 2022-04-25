@@ -1,0 +1,6 @@
+1) Use the L, R Sliding window technique
+2) Initialize L to 0 and R to 1 and maxProfit to 0
+3) If price at L is less than R the note the profit and compare against maxProfit
+4) If the value is greater then maxProfit, then note down the buy and sell indices
+5) If price of L is more than price of R, make L = R to advance the L pointer forward
+6) In the end of each iteration, R pointer keeps moving forward till all elements are covered
