@@ -1,0 +1,6 @@
+1) Create a minheap
+2) Initially populate the value of first node of all K sorted linked lists to the heap
+3) Pop out the top element and print it
+4) Increment the pointer of the linked list form the tracked linked list where the top element is popped
+5) If the tracked list hit null, then don't add further elements from that list to heap
+6) Once all elements are popped, we have printed out the K sorted elements sorted on the screen output

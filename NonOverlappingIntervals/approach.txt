@@ -1,0 +1,4 @@
+1) The intervals given need to be checked and determine the minimum number of intervals that can be removed to keep other intervals non-overlapping
+2) To get just he count of the intervals, not the first interval's end value
+3) If subsequent interval's start value is greater than this end value then update the end value and increment counter
+4) The count at the end gives minimum number of intervals to remove to 

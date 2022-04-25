@@ -1,0 +1,1 @@
+1) If the start time of the later meeting happens after end time of current meeting then there is no overlap

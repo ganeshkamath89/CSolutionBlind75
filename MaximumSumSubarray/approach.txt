@@ -1,0 +1,6 @@
+1) use a variable maxSum initialized to initial element
+2) use a variable curSum to add elements till current index
+3) The curSum variable resets to 0 when ever its value becomes less than 0 as -ve numbers do not contribute to maximumSum
+4) the max of curSum and maxSum in each iteration gives the overall maximum sum of the subarray
+
+Note: in the naive approach we need 3 loops i, j, k index to form sum of all sub arrays and find the highest possible max value

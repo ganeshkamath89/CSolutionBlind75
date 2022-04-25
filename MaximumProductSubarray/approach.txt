@@ -1,0 +1,4 @@
+1) product of all positive numbers give positive output
+2) product of all negative numbers can give either positive or negative output
+3) When a number is multiplied by 0, it becomes 0, so 0 splits the array into smaller reset points
+4) We need to keep track of both max and min possible value upon multiplication and use that value to get the maximum product subarray value
