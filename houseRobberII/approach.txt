@@ -1,0 +1,5 @@
+The first house is adjacent to the last house
+1) We compute the maximum loot two times
+	1) Fist excluding first house
+	2) Second excluding last house
+2) Maximum of the two loots gives the maximum loot

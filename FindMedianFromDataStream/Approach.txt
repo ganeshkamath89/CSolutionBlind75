@@ -1,0 +1,6 @@
+Use 1 min-Heap, 1 max-heap
+1) max heap runs from beginning to the middle so the maximum value of the heap is tracked
+2) min heap runs from middle to the end, so the minimum value of the heap is tracked
+
+For a stream with even number of values, median = (minheap.top() + maxheap.top())/2
+For a stream with odd number of values, median = maxheap.top()

@@ -1,0 +1,3 @@
+Adjacent houses cannot be robbed, find maximum loot possible
+1) one, two, n, n+1, ...
+2) When n is considered we must skip adjacent (two); when n is skipped we can consider two
