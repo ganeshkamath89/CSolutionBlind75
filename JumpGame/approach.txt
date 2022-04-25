@@ -1,0 +1,3 @@
+1) We initialize a variable "reachable" that keeps track of maximum distance reachable as we iterate over all the index
+2) At each point we get the maximum of the reachable value so far and "i + arr[i]" which tells the reachability of element at index i
+3) The maximum reachable value at the end of interation tells us if we can reach the end or not.

@@ -1,0 +1,11 @@
+1) Use Sliding Window to solve this problem
+2) Use two variables. Initialize both to 0 indicating beginning of the string being procesed.
+3) Get the character at current position.
+4) If the character is not present, add it to the end of the temp array;
+5) As each character is added check if the new character is present in the temp array.
+6) If the character is present in temp array, use a function to move one character backwards till that new character's previous occurence is removed
+7) At each stage, get the length of the window using formula: i - j + 1
+8) Compare lenght at any position with the max of length so far and repeat step 3  to 7 till we reach end of the original string
+9) The max obtained in this method is the length of longest substring without repeating characters.
+
+Note: using Hashmap and Set are other alternatives proposed in other languages like Java and C++

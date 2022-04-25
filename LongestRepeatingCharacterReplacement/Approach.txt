@@ -1,0 +1,5 @@
+1) This problem requires sliding Window technique that uses left and right addresses to keep track of character to process
+2) Window Size = i - j + 1
+3) To check if the Sliding window is within K replacement bount perform check: (Window - maxCount) > k
+4) If it is outside K, then we decrement the window and remove the characters from beginning till criteria is met
+5) The value of maxCount gives the longest possible repeating string by replacement of K characters
