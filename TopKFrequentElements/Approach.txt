@@ -1,0 +1,4 @@
+1) Create a structure where number and frequency can be tracked
+2) fill a hashmap with the frequency of each character
+3) fill the hashmap entries based on frequency to a max heap
+4) pop elements in order till K elements to print top K elements
